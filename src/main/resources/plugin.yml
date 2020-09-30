@@ -1,0 +1,6 @@
+name: HypixelSkyblockRemake
+version: ${project.version}
+main: me.cyberdie22.hypixelskyblockremake.HypixelSkyblockRemake
+api-version: 1.15
+authors: [ CyberDie22 ]
+description: Remake of Hypixel Skyblock (Unlimited)
