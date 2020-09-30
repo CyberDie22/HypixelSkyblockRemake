@@ -1,9 +1,9 @@
-## Hypixel Skyblock Remake
+# Hypixel Skyblock Remake
 
-# Decription
+## Decription
 Remaking Hypixel Skyblock in 1.15.2!
 
-# Versions
+## Versions
 Only Supports Spigot and SHOULD support PaperSpigot
 
 1.16.2 - Not Supported
