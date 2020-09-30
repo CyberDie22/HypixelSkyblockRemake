@@ -1,7 +1,10 @@
 package me.cyberdie22.hypixelskyblockremake;
 
+import me.cyberdie22.hypixelskyblockremake.Commands.GiveItemCommand;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
+
+import java.util.Objects;
 
 public final class HypixelSkyblockRemake extends JavaPlugin {
 
@@ -9,6 +12,8 @@ public final class HypixelSkyblockRemake extends JavaPlugin {
     public void onEnable() {
         Bukkit.getConsoleSender().sendMessage("[HSR] Hypixel Skyblock Remake loading!");
         // Plugin startup logic
+
+        Objects.requireNonNull(this.getCommand("giveitem")).setExecutor(new GiveItemCommand());
 
 
 
