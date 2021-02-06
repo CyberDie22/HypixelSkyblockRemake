@@ -1,5 +1,7 @@
 # Hypixel Skyblock Remake
 
+# Not supporting anymore
+
 ## Decription
 Remaking Hypixel Skyblock in 1.15.2!
 
